@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djibo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <nav id="Desktop-nav">
+
+        <div class="logo"> Nassirdine Djibo</div>
+
+        <div>
+            <ul class="nav-bar">
+                <li> <a href="#about"> About</a></li>
+                <li> <a href="#experience"> Experience</a></li>
+                <li> <a href="#projects"> Projects</a></li>
+                <li> <a href="#contact"> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo"> Nassirdine Djibo</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li> <a href="#about" onclick="toggleMenu()"> About</a></li>
+                <li> <a href="#experience" onclick="toggleMenu()"> Experience</a></li>
+                <li> <a href="#projects" onclick="toggleMenu()"> Projects</a></li>
+                <li> <a href="#contact" onclick="toggleMenu()"> Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="my-profile.png" alt="Nassirdine Djibo profile picture" class="My_photo">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1"> Hello, I'm</p>
+            <h1 class="title"> Nassirdine Djibo</h1>
+            <p class="section__text__p2"> Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('Nassirdine.pdf')">
+                    Download CV</button>
+                <button class="btn btn-color-1" onclick="Location.href='#contact'">
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="linkedin.png" alt=" My linkedin profile " class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/nassirdine-nassir-djibo-1820ba1a7/' " />
+                <img src="github.png" alt=" My github profile " class="icon"
+                    onclick="location.href='https://github.com/Nassirdine' " />
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1"> Get To Know More</p>
+        <h1 class="title"> About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="Djbo_tech (1).png" alt=" profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="detials-container">
+                        <img src="experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>1+ year <br>Frontend Development</p>
+                    </div>
+                    <div class="detials-container">
+                        <img src="education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>Associate Degree in CS <br>Bacgelor Degree in CS</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p> . Able to quickly adapt to any programming language, so7ware, & framework <br>
+                        • Database Modeling and Administration. <br>
+                        • Java/J2EE Development. <br>
+                        • Excellent project management, organization, and problem-solving skills. <br>
+                        • Ability to use teamwork effectively under pressure. <br>
+                        • Excellent written/oral communication skills.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <img src="Arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href
+        ='#experience'" />
+
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1"> Explore more about my</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="detials-containers">
+                    <h2 class="experience-sub-title"> Software Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" alt="Education icon" class="icon">
+                            <div>
+                                <h3>JAVA/J2EE</h3>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Education icon" class="icon">
+                            <div>
+                                <h3>PYTHON</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Education icon" class="icon">
+                            <div>
+                                <h3>JAVASCRIPT</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Education icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Education icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Education icon" class="icon">
+                            <div>
+                                <h3>XML</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Education icon" class="icon">
+                            <div>
+                                <h3>JSP</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Education icon" class="icon">
+                            <div>
+                                <h3>API</h3>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+                <div class="detials-containers">
+                    <h2 class="experience-sub-title"> DEV. ENVIRONMENT</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" alt="Education icon" class="icon">
+                            <div>
+                                <h3>ECLIPSE</h3>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Education icon" class="icon">
+                            <div>
+                                <h3>NETBEANS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Education icon" class="icon">
+                            <div>
+                                <h3>MS VISUAL STUDIO</h3>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img src="Arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href
+        ='#projects'" />
+
+    </section>
+
+    <section id="projects">
+        <h1 class="pro">Projects</h1>
+        <div class="section_div">
+
+            <div class="project-div">
+                <h3 class="tay"> Website for travel agency:
+                </h3>
+                <p>• Experience using front-end framework.<br>
+                    • Experience building SQL queries.<br>
+                    • Experience using JavaScript, CSS, HTML.<br></p>
+                <p class="M"> My Portfolio Website <br>
+                    <img src="github.png" alt=" My github profile " class="icon"
+                        onclick="location.href='https://github.com/Nassirdine' " />
+                </p>
+
+
+            </div>
+
+        </div>
+        <div id="contact">
+            <h3 class="cont">Contact Me</h3>
+            <p class="email"> Email: nassourdine.djibo@gmail.com</p>
+            <p class="phone"> Phone: +1 201-736-8920</p>
+
+        </div>
+
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
